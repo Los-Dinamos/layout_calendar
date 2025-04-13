@@ -1,6 +1,7 @@
 .calendar {
   display: flex;
   flex-wrap: wrap;
+  padding: $padding;
   gap: $gap-size;
   width: calc(($cell-size + $gap-size) * 7 + $padding * 2);
 
